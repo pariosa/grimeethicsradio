@@ -1,0 +1,94 @@
+/*
+ * styles.css
+ * Copyright (C) 2016 Grime Ethics.
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+		h2 {  text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187) , 0 4px 0 rgb(185,185,185) , 0 5px 0 rgb(170,170,170) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) ;
+	/*	text-shadow: 2px 2px #4286f4;*/}
+.anim1{-webkit-animation: color_change2 1.7s infinite alternate;	        -moz-animation: color_change2 1.7s infinite alternate;
+-ms-animation: color_change2 1.7s infinite alternate;
+  -o-animation: color_change2 1.7s infinite alternate;
+   animation: color_change2 1.7s infinite alternate;}
+.anim2{-webkit-animation: color_change2 1.7s infinite alternate;
+    -moz-animation: color_change2 1.7s infinite alternate;
+    -ms-animation: color_change2 1.7s infinite alternate;
+    -o-animation: color_change2 1.7s infinite alternate;
+    animation: color_change2 1.7s infinite alternate;}
+.anim3{-webkit-animation: color_change2 1.7s infinite alternate;
+-moz-animation: color_change2 1.7s infinite alternate;
+-ms-animation: color_change2 1.7s infinite alternate;
+-moz-animation: color_change2 1.7s infinite alternate;
+  animation: color_change2 1.7s infinite alternate;}
+@keyframes animatedBackground {
+	from { background-position: 0 100%; }
+																																										to { background-position: 100% 100%; }
+																																													}
+																																															@-webkit-keyframes color_change {
+																																																		  	from {color:#ff99ff; }
+																																																						to {color:  #66ccff; }
+																																																									}
+																																																											@-moz-keyframes color_change {
+																																																															from {color:#ff99ff; }
+																																																																		to {color:  #66ccff; }
+																																																																					}
+																																																																							@-ms-keyframes color_change {
+																																																																											from {color:#ff99ff; }
+																																																																														to {color:  #66ccff; }
+																																																																																	}
+																																																																																			@-o-keyframes color_change {
+																																																																																							from {color:#ff99ff; }
+																																																																																										to {color:  #66ccff; }
+																																																																																													}
+																																																																																															@keyframes color_change {
+																																																																																																			from {color:  #66ccff; }
+																																																																																																						to {color:#ff99ff;}
+																																																																																																									}
+																																																																																																											@-webkit-keyframes color_change2 {
+																																																																																																															from {color:  #66ccff; }
+																																																																																																																		to {color:#ff99ff; }
+																																																																																																																					}
+																																																																																																																							@-moz-keyframes color_change2 {
+																																																																																																																											from {color:  #66ccff; }
+																																																																																																																														to {color:#ff99ff; }
+																																																																																																																																	}
+																																																																																																																																			@-ms-keyframes color_change2 {
+																																																																																																																																							from {color:  #66ccff; }
+																																																																																																																																										to {color:#ff99ff; }
+																																																																																																																																													}
+																																																																																																																																															@-o-keyframes color_change2 {
+																																																																																																																																																			from {color:  #66ccff;}
+																																																																																																																																																						to {color:#ff99ff; }
+																																																																																																																																																									}
+																																																																																																																																																											@keyframes color_change2 {
+																																																																																																																																																															from {color:  #66ccff; }
+																																																																																																																																																																		to {color:#ff99ff; }
+																																																																																																																																																																					}
+																																																																																																																																																																							h1,h2,h3,h4,h5{margin-top:0px;margin-bottom:0px;}
+																																																																																																																																																																									body{
+																																																																																																																																																																												     font-size: 100%;
+																																																																																																																																																																												     	             font-family: arial;
+																																																																																																																																																																														     	             background-attachment: fixed;
+																																																																																																																																																																																                          background-repeat: repeat-x;
+																																																																																																																																																																																			                       background-position: center bottom;
+																																																																																																																																																																																					       		     background-color: #8DC2DC;
+background-image: url(bg-blouds.png);
+																																																																																																																																																																																										                       animation: animatedBackground 40s linear infinite;
+																																																																																																																																																																																												                            -ms-animation: animatedBackground 40s linear infinite;
+																																																																																																																																																																																															                         -moz-animation: animatedBackground 40s linear infinite;
+																																																																																																																																																																																																		                      -webkit-animation: animatedBackground 40s linear infinite;
+																																																																																																																																																																																																				                           animation: animatedBackground 40s linear infinite;}
+																																																																																																																																																																																																							   		a{text-decoration:none}
+																																																																																																																																																																																																											a:visited{color:#8899ff;}
+																																																																																																																																																																																																													.welcome{text-align:center;}
+																																																																																																																																																																																																															.wrapper{}
+																																																																																																																																																																																																																	.radio-wrap{ margin: 0% 0% 0% 40%;}
+																																																																																																																																																																																																																			.chat{height:100%;}
+																																																																																																																																																																																																																					.logo{
+																																																																																																																																																																																																																						background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+																																																																																																																																																																																																																						border-radius:25px;
+																																																																																																																																																																																																																						width:120px;
+																																																																																																																																																																																																																						height:120px;
+																																																																																																																																																																																																																						margin:0 auto;
+																																																																																																																																																																																																																								}
